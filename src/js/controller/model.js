@@ -256,6 +256,8 @@ define([
             this.mediaModel.off();
             this.mediaModel = new MediaModel();
             this.set('mediaModel', this.mediaModel);
+            this.set('position', item.starttime || 0);
+            this.set('duration', item.duration || 0);
 
             var source = item && item.sources && item.sources[0];
             if (source === undefined) {
