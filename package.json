@@ -43,13 +43,13 @@
     "load-grunt-tasks": "^3.5.0",
     "node-libs-browser": "^1.0.0",
     "phantomjs-prebuilt": "2.1.7",
-    "qunitjs": "^1.23.0",
+    "qunitjs": "^1.23.1",
     "raw-loader": "^0.5.1",
     "requirejs": "^2.2.0",
-    "source-map": "^0.5.3",
+    "source-map": "^0.5.5",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
-    "webpack": "^1.12.15"
+    "webpack": "^1.13.0"
   },
   "scripts": {
     "postinstall": "bower install"
